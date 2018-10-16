@@ -8,9 +8,13 @@ Write a function named greeting that takes in a string and returns the string in
 Then, write a function named speaker that takes in a string and a callback function. The speaker function should return the string in all uppercase letters only by invoking the callback.
 ------------------------------------------------------------------------------------------------ */
 
-const greeting = (word) => word.toUpperCase();
+const greeting = (word) => {
+  // Solution code here...
+}
 
-const speaker = (message, callback) => callback(message);
+const speaker = (message, callback) => {
+  // Solution code here...
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -29,14 +33,11 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  arr.push(value);
+  // Solution code here...
 }
 
 const addNumbers = (num, arr, times, callback) => {
-  for (let i = 0; i < times; i++) {
-      callback(arr, num);
-  }
-  return arr;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -52,16 +53,11 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-    if (num % 3 === 2) {
-        arr.pop();
-    }
+  // Solution code here...
 }
 
 const removeElements = (arr, callback) => {
-    for (let i = 0; i < arr.length; i++) {
-        callback(arr[i], arr);
-    }
-    return arr;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -71,10 +67,7 @@ Write a function named removeWithForEach that produces the same output as challe
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithForEach = (arr, callback) => {
-    arr.forEach((value) => {
-        callback(value, arr);
-    });
-    return arr;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -88,18 +81,13 @@ This anonymous function should accept up to three arguments: the element, the in
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithAnon = (arr) => {
-    arr.forEach((value) => {
-        if (value % 3 === 2) {
-            arr.pop();
-        }
-    });
-    return arr;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
-Write a function named createList that takes in an array of the current store inventory.
+Write a function named createList that takes in an array of the current store intentory.
 
 The inventory is formatted like this:
 [
@@ -114,13 +102,7 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-    let grocList = [];
-    availableItems.forEach(item => {
-        if (item.available) {
-            grocList.push(item.name);
-        }
-    });
-    return grocList;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -138,24 +120,7 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-    let fizziBois = [];
-    arr.forEach(value => {
-        let fizzness = '';
-        if ((value % 3) && (value % 5)) {
-            fizzness = value;
-        } else {
-            if (!(value % 3)) {
-                fizzness += 'Fizz';
-            }
-            if (!(value % 5)) {
-                fizzness += ' Buzz';
-            }
-            fizzness = fizzness.trim();
-        }
-        fizziBois.push(fizzness);
-    });
-    console.log(fizziBois);
-    return fizziBois;
+  // Solution code here...
 }
 
 /* ------------------------------------------------------------------------------------------------
