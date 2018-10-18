@@ -10,7 +10,6 @@ const sortBackwards = (arr) => {
   arr.sort((a,b) => {
     return (a < b);
   });
-
   return arr;
 };
 
@@ -116,7 +115,7 @@ const people = [
 const sortPeople = (arr) => {
     arr.sort((a,b) => {
         return (a.lastName.toUpperCase() > b.lastName.toUpperCase());
-    })
+    });
     return arr;
 };
 
