@@ -173,7 +173,7 @@ const extractStats = (arr) => {
           name: stat.stat.name,
           total: stat.effort + stat.baseStat
       };
-  })
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
