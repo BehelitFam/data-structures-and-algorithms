@@ -36,6 +36,9 @@ This program contains one method, ArrayBinarySearch. This method takes in a give
 Here is the original, whiteboarded solution. Note that there are several bugs, and the final solution was refactored somewhat to
 include multiple return statements, something we wanted to avoid initially. 
 
-![Solution whiteboard](link)
+![Solution whiteboard](https://github.com/RickFlinn/data-structures-and-algorithms/blob/master/assets/Image%20from%20iOS%20(2).jpg)
+![Solution whiteboard](https://github.com/RickFlinn/data-structures-and-algorithms/blob/master/assets/Image%20from%20iOS%20(3).jpg)
+
+
 
   
