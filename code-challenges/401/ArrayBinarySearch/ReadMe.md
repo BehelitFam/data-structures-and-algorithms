@@ -1,4 +1,4 @@
-#Array Binary Search
+# Array Binary Search
 
 Binary searches are an efficient method for searching through large, sorted datasets, such as a database or large array.
 This challenge is a simple introduction to the binary search method by creating a binary search method for a sorted array of integers.
